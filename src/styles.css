@@ -4,23 +4,91 @@
   font-family: "Poppins", sans-serif;
 }
 
-/*Navigation*/
+body {
+  padding: 3em;
+  background-color: #f2e4e4;
+}
+
+/*Header / Navigation*/
+
+header nav,
+footer nav {
+  background-color: #041b7c;
+  border-radius: 2.5em;
+  display: flex;
+}
+
+header nav {
+  margin-bottom: 3em;
+}
+
+#cover-image {
+  background-image: url("./pexels-matt-hardy-2272939.jpg");
+  background-size: cover;
+  padding-bottom: 50em;
+  border-radius: 2.5em;
+  overflow: hidden;
+}
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-nav p {
-    padding: 0 0 0 2.5%;
+.navbar p {
+  margin: 1em 0;
+  font-size: 150%;
 }
 
-/*Header*/
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
 
-
+.navbar a:hover {
+  color: #ff0000;
+}
 
 /*Main*/
 
+h1 {
+  font-size: 300%;
+  color: #ff0000;
+}
 
+h2 {
+  font-size: 200%;
+  color: #041b7c;
+}
+
+p a {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #041b7c;
+  text-decoration: underline;
+}
+
+div.event-images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 25em;
+  max-height: 15em;
+  border-radius: 1em;
+  margin: 1.5em;
+}
 
 /*Footer*/
+
+footer nav {
+  margin-top: 3em;
+}
