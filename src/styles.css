@@ -1,0 +1,26 @@
+/*Universal*/
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Navigation*/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav p {
+    padding: 0 0 0 2.5%;
+}
+
+/*Header*/
+
+
+
+/*Main*/
+
+
+
+/*Footer*/
